@@ -1,8 +1,8 @@
 {
-  description = "A simple Go package";
+  description = "Gomusik flake";
 
   # Nixpkgs / NixOS version to use.
-  inputs.nixpkgs.url = "nixpkgs/nixos-24.05";
+  inputs.nixpkgs.url = "nixpkgs/nixos-unstable";
 
   outputs = { self, nixpkgs }:
     let
@@ -44,7 +44,7 @@
             # remember to bump this hash when your dependencies change.
             # vendorHash = pkgs.lib.fakeHash;
 
-            vendorHash = "sha256-sR3yU7xZY092y6cp5nO8kee3iV+K/a0WxJY1gRG+CzI=";
+            vendorHash = "sha256-igS/row+uB+bCXmqqgwWWaBXSMy76YZdeLrJE3+T5mI=";
           };
         });
 
